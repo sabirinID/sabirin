@@ -14,7 +14,7 @@ This portfolio contains information about Sabirin, his work experience, educatio
 
 ## How to Use
 
-You can view this portfolio directly through [this link](sabirin.js.org).
+You can view this portfolio directly through [this link](https://sabirinid.github.io/sabirin/).
 
 ## Contribution
 
