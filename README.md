@@ -1,25 +1,29 @@
-# Sabirin's Portfolio
+# Website Pribadi Syahril Dimas Sabirin
 
-Welcome to the repository for Sabirin's portfolio. This portfolio was built using HTML and CSS.
+Situs personal branding Syahril Dimas Sabirin, S.Si., Gr. (Guru Kimia, mentor kompetisi sains, pengembang media belajar digital, pendiri Aurum Coffee).
 
-## Project Description
+## Struktur
 
-This portfolio contains information about Sabirin, his work experience, education, and projects he has completed. The purpose of this portfolio is to provide a clear overview of Sabirin's skills and experience as an IT and Data Talent.
+- `index.html` : konten dan struktur halaman
+- `styles.css` : desain (token warna dan tipografi di bagian `:root`)
+- `script.js` : menu mobile, penanda menu aktif, tombol salin email
+- `logo.jpg`, `profile.jpg` : aset gambar
+- `CNAME` : domain khusus untuk GitHub Pages
 
-## Features
+## Menjalankan
 
-* About Me: This section contains personal information and a brief background about Sabirin.
-* Projects: This section showcases the projects that Sabirin has completed.
-* Contact: This section contains information on how to contact Sabirin.
+Buka `index.html` langsung di peramban, atau jalankan server lokal:
 
-## How to Use
+```
+python3 -m http.server 8000
+```
 
-You can view this portfolio directly through [this link](https://sabirinid.github.io/sabirin/).
+## Mengubah isi
 
-## Contribution
+- Teks: edit `index.html`.
+- Warna: ubah variabel di `:root` pada `styles.css`.
+- Tautan karya: cari kelas `.work` di `index.html`.
 
-If you wish to contribute to this project, please fork this repository and create a pull request with your changes.
+## Lisensi
 
-## License
-
-This project is under the MIT license. Please see the [LICENSE](LICENSE) file for more details.
+MIT. Lihat [LICENSE](LICENSE).

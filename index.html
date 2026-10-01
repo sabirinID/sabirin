@@ -1,70 +1,257 @@
 <!doctype html>
-<html lang=en>
-
+<html lang="id">
 <head>
-    <meta charset=utf-8>
-    <meta http-equiv=x-ua-compatible content="IE=edge">
-    <title>Sabirin's Portfolio</title>
-    <meta name=description content="Sabirin's Portfolio">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Syahril Dimas Sabirin, S.Si., Gr. | Guru Kimia, Mentor Sains, Pengembang Media Belajar</title>
+  <meta name="description" content="Guru Kimia SMA Islam Al Azhar 5 Cirebon, mentor kompetisi sains, dan pengembang laboratorium virtual serta media belajar digital. Mahasiswa S2 Kimia UNPAD dan pendiri Aurum Coffee.">
+  <meta name="theme-color" content="#0E2240">
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+  <link rel="canonical" href="https://sabirin.thedev.id/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:title" content="Syahril Dimas Sabirin, S.Si., Gr.">
+  <meta property="og:description" content="Guru kimia yang membangun cara belajar yang bisa dicoba sendiri: laboratorium virtual, bank soal interaktif, dan mentoring kompetisi sains.">
+  <meta property="og:image" content="https://sabirin.thedev.id/profile.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Syahril Dimas Sabirin",
+    "honorificSuffix": "S.Si., Gr.",
+    "jobTitle": "Guru Kimia",
+    "worksFor": { "@type": "Organization", "name": "SMA Islam Al Azhar 5 Cirebon" },
+    "alumniOf": "Universitas Padjadjaran",
+    "url": "https://sabirin.thedev.id/",
+    "image": "https://sabirin.thedev.id/profile.jpg",
+    "email": "mailto:syahrildimassabirin@gmail.com",
+    "sameAs": ["https://www.linkedin.com/in/syahrildimassabirin"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Cirebon", "addressCountry": "ID" }
+  }
+  </script>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <img src="logo.jpg" alt="Logo" width="auto" height="100">
-        </div>
-        <h1>Welcome to Sabirin's Portfolio Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Latest Activities</h1>
-        <p>
-            <h2>1. Telkomsel’s DSI Data Challenge 2023</h2>
-            <p></p>
-            <h2>2. HealthKathon2023 by BPJS Kesehatan</h2>
-            <p></p>
-            <h2>3. IDCamp 2023 Final Project</h2>
-            <p>Indosat Ooredoo Digital Camp (IDCamp)</p>
-        </p>
-        <section id="projects">
-            <h1>Projects</h1>
-        </section>
-        <section id="about">
-            <h1>About</h1>
-            <p>Data Talent | Educator @ Ruangguru | Ex-Zenius & Ex-Pahamify</p>
-            <img src="profile.jpg" alt="Profile Picture" height=100px>
-            <p>As a passionate and tech-savvy individual, I strongly believe in the power of data and digitalization. Currently, I am making a career transition towards data science and analytics. Leveraging my background as an educator in various EdTech
-                startups, I have cultivated invaluable skills in problem-solving, critical thinking, and adaptability to new learning.
-            </p>
-        </section>
-        <section id="contact">
-            <h2>Contact Info</h2>
-            <p>Syahril Dimas Sabirin<br> Jalan Taman Siswa<br> Kel. Wirogunan, Kec. Mergangsan<br> Yogyakarta, Indonesia 55151<br>
-                <br>
-                <b>Web:</b> sabirin.thedev.id<br>
-                <b>Phone:</b> +62 (0) 813 9003 2010<br>
-                <b>Email:</b> <a href="mailto:syahrildimassabirin@gmail.com">syahrildimassabirin@gmail.com</a><br>
-                <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/syahrildimassabirin">in/syahrildimassabirin</a>
-            </p>
-        </section>
-    </main>
-    <footer>
-        <a href=/ target=_top aria-label=sabirin.ID><svg xmlns="url" width="auto" height="30"></svg>
-        </a>
-        <div></div>
-        <hr><span>© 2023 <a title="Syahril Dimas Sabirin" rel="noreferrer noopener" target=_blank href=https://sabirinid.github.io/sabirin>sabirinID</a></span>
-        <div>
-            <a href=/about.html target=_top title=About>About</a> ▪
-            <a href=/contact.html target=_top title=Contact>Contact</a>
-        </div>
-    </footer>
-</body>
+  <a class="skip" href="#konten">Lewati ke konten utama</a>
 
+  <header class="site-header" id="top">
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="Sabirin, kembali ke atas">
+        <img src="logo.jpg" alt="" width="40" height="40">
+        <span>Sabirin</span>
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="sr">Menu</span>
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#peran">Peran</a></li>
+          <li><a href="#karya">Karya</a></li>
+          <li><a href="#mentoring">Mentoring</a></li>
+          <li><a href="#aurum">Aurum Coffee</a></li>
+          <li><a class="nav-cta" href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="konten">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="judul">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="hero-name">Syahril Dimas Sabirin, S.Si., Gr.</p>
+          <h1 id="judul">Kimia yang bisa dicoba, bukan hanya dihafal.</h1>
+          <p class="lead">Guru Kimia di SMA Islam Al Azhar 5 Cirebon. Saya membina siswa untuk kompetisi sains dan membangun laboratorium virtual agar konsep yang tak kasatmata bisa dilihat dan dieksplorasi sendiri.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#karya">Lihat karya saya</a>
+            <a class="btn btn-ghost" href="#kontak">Hubungi saya</a>
+          </div>
+        </div>
+
+        <figure class="atom" aria-label="Foto Syahril Dimas Sabirin dikelilingi model atom">
+          <svg class="shells" viewBox="0 0 400 400" aria-hidden="true">
+            <g class="shell s1"><circle cx="200" cy="200" r="116"/><circle class="e" cx="316" cy="200" r="5"/><circle class="e" cx="84" cy="200" r="5"/></g>
+            <g class="shell s2"><circle cx="200" cy="200" r="140"/><circle class="e" cx="200" cy="60" r="5"/><circle class="e" cx="339" cy="219" r="5"/><circle class="e" cx="61" cy="219" r="5"/></g>
+            <g class="shell s3"><circle cx="200" cy="200" r="163"/><circle class="e" cx="363" cy="200" r="5"/><circle class="e" cx="200" cy="363" r="5"/><circle class="e" cx="37" cy="200" r="5"/><circle class="e" cx="200" cy="37" r="5"/></g>
+            <g class="shell s4"><circle cx="200" cy="200" r="181"/><circle class="e" cx="381" cy="200" r="5"/><circle class="e" cx="72" cy="328" r="5"/><circle class="e" cx="72" cy="72" r="5"/></g>
+            <g class="shell s5"><circle cx="200" cy="200" r="196"/><circle class="e gold" cx="396" cy="200" r="6"/><circle class="e gold" cx="102" cy="30" r="6"/><circle class="e gold" cx="102" cy="370" r="6"/><circle class="e gold" cx="298" cy="30" r="6"/><circle class="e gold" cx="298" cy="370" r="6"/></g>
+          </svg>
+          <img class="portrait" src="profile.jpg" alt="Foto Syahril Dimas Sabirin" width="540" height="540">
+          <figcaption class="tile">
+            <span class="tile-num">51</span>
+            <span class="tile-sym">Sb</span>
+            <span class="tile-name">Sabirin</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section class="section" id="tentang" aria-labelledby="h-tentang">
+      <div class="wrap split">
+        <h2 id="h-tentang">Mengajar dengan cara yang membuat siswa ingin mencoba.</h2>
+        <div class="prose">
+          <p>Saya percaya siswa memahami kimia ketika mereka bisa berpindah dengan lancar antara tiga lapisan: apa yang terlihat di laboratorium, apa yang terjadi pada partikel, dan bagaimana semuanya dituliskan dalam simbol. Pendekatan multirepresentasi inilah yang menjadi dasar rancangan media belajar saya, dan juga fokus penelitian magister saya di Universitas Padjadjaran melalui Beasiswa Guru SMUP.</p>
+          <p>Di kelas, saya menautkan konsep sains dengan nilai Imtaq dan Profil Pelajar Pancasila. Sebelum menjadi guru di Cirebon, saya mengajar di sejumlah platform EdTech, yaitu Ruangguru, Zenius, dan Pahamify. Dari sana saya belajar merancang penjelasan yang jelas untuk ribuan siswa dengan gaya belajar yang berbeda.</p>
+          <dl class="facts">
+            <div><dt>Mengajar di</dt><dd>SMA Islam Al Azhar 5 Cirebon</dd></div>
+            <div><dt>Studi lanjut</dt><dd>S2 Kimia, Universitas Padjadjaran</dd></div>
+            <div><dt>Basis</dt><dd>Cirebon, Jawa Barat</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERAN -->
+    <section class="section section-tint" id="peran" aria-labelledby="h-peran">
+      <div class="wrap">
+        <h2 id="h-peran" class="section-title">Empat peran, satu benang merah: membuat belajar terasa dekat.</h2>
+        <ul class="roles">
+          <li>
+            <h3>Pendidik</h3>
+            <p>Merancang pembelajaran kimia Kelas X sampai XII dengan pendekatan Pembelajaran Mendalam, lengkap dengan silabus, modul ajar, LKPD, dan bank soal.</p>
+          </li>
+          <li>
+            <h3>Mentor sains</h3>
+            <p>Mendampingi siswa menyusun proposal riset, eksperimen, dan persiapan olimpiade, dari ide awal sampai presentasi.</p>
+          </li>
+          <li>
+            <h3>Pengembang media</h3>
+            <p>Membangun laboratorium virtual, tryout interaktif, dan buku persiapan TKA yang bisa dipakai guru dan siswa di perangkat apa pun.</p>
+          </li>
+          <li>
+            <h3>Wirausaha kopi</h3>
+            <p>Mengelola Aurum Coffee, merek kopi dengan konsep Liquid Gold Heritage, dari resep minuman sampai SOP pelatihan barista.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- KARYA -->
+    <section class="section" id="karya" aria-labelledby="h-karya">
+      <div class="wrap">
+        <h2 id="h-karya" class="section-title">Karya yang sedang dipakai di kelas dan dibuka untuk umum.</h2>
+
+        <div class="works">
+          <article class="work work-lab">
+            <div class="work-body">
+              <h3>Laboratorium Virtual Kimia</h3>
+              <p>Enam laboratorium interaktif untuk Kimia Kelas X (Fase E). Setiap lab punya tab materi, simulasi, evaluasi 18 soal otomatis (LOTS, MOTS, HOTS), pelacak progres, dan chatbot bantu belajar.</p>
+              <ul class="chips" aria-label="Topik laboratorium">
+                <li>Sejarah Teori Atom</li>
+                <li>Notasi Atom, Ion, Nuklida</li>
+                <li>Konfigurasi Elektron</li>
+                <li>Bilangan Kuantum dan Orbital</li>
+                <li>Sistem Periodik Unsur</li>
+                <li>Ikatan Kimia</li>
+              </ul>
+              <a class="btn btn-accent" href="https://lab.logicus.online" target="_blank" rel="noopener">Buka laboratorium<span class="sr"> (tab baru)</span></a>
+            </div>
+          </article>
+
+          <article class="work work-tryout">
+            <h3>Tryout Interaktif</h3>
+            <p>Platform latihan soal matematika untuk SD, SMP, dan SMA dengan pembahasan per topik. Seluruh 20 topik SMP sudah lengkap, dan topik SMA terus bertambah.</p>
+            <a class="link" href="https://tobk.logicus.online" target="_blank" rel="noopener">Coba tryout<span class="sr"> (tab baru)</span></a>
+          </article>
+
+          <article class="work work-tka">
+            <h3>Buku Persiapan TKA</h3>
+            <p>Tiga buku MANTAP untuk Tes Kemampuan Akademik: Matematika SD/MI, Matematika SMP/MTs, dan Kimia SMA/MA/SMK, disusun mengikuti kisi-kisi resmi 2025/2026.</p>
+            <a class="link" href="https://logicus.online" target="_blank" rel="noopener">Kunjungi Logicus<span class="sr"> (tab baru)</span></a>
+          </article>
+
+          <article class="work work-modul">
+            <h3>Perangkat Ajar Kurikulum Nasional</h3>
+            <p>Silabus, modul ajar, LKPD, asesmen, dan muatan Imtaq untuk Kimia Kelas X sampai XII, termasuk modul ko-kurikuler proyek Eco-Enzyme yang memadukan Kimia, Bahasa Indonesia, dan Informatika.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENTORING -->
+    <section class="section section-navy" id="mentoring" aria-labelledby="h-mentoring">
+      <div class="wrap split">
+        <div>
+          <h2 id="h-mentoring">Membina peneliti muda dari ruang kelas ke panggung kompetisi.</h2>
+        </div>
+        <div class="prose">
+          <p>Saya mendampingi siswa SMA Islam Al Azhar 5 Cirebon yang ingin menguji ide mereka di tingkat nasional. Pendampingan mencakup merumuskan masalah, merancang eksperimen yang bisa dipertanggungjawabkan, menulis karya ilmiah, hingga berlatih presentasi.</p>
+          <ul class="comp" aria-label="Kompetisi yang didampingi">
+            <li>LPIR</li>
+            <li>OSN</li>
+            <li>OSA</li>
+            <li>OPSI</li>
+            <li>COSMII</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- AURUM -->
+    <section class="section aurum" id="aurum" aria-labelledby="h-aurum">
+      <div class="wrap split">
+        <div>
+          <h2 id="h-aurum">Aurum Coffee</h2>
+          <p class="aurum-tag">Liquid Gold Heritage</p>
+        </div>
+        <div class="prose">
+          <p>Di luar kelas, saya membangun Aurum Coffee, merek kopi yang mengangkat cita rasa nusantara dengan tampilan hijau tua dan emas. Prinsip kimia ikut bekerja di dapurnya: suhu air, ukuran gilingan, dan waktu seduh diperlakukan sebagai variabel yang bisa diukur.</p>
+          <p>Untuk menjaga mutu, saya menyusun resep minuman khas, prosedur seduh French Press dan V60, serta SOP pelatihan barista internal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section" id="kontak" aria-labelledby="h-kontak">
+      <div class="wrap split">
+        <div>
+          <h2 id="h-kontak">Mari berdiskusi.</h2>
+          <p class="muted">Untuk kolaborasi pembelajaran, undangan berbagi praktik, atau pendampingan kompetisi, silakan hubungi saya melalui kanal berikut.</p>
+        </div>
+        <ul class="contact">
+          <li>
+            <span class="c-label">Email</span>
+            <a href="mailto:syahrildimassabirin@gmail.com" id="email">syahrildimassabirin@gmail.com</a>
+            <button class="copy" type="button" data-copy="syahrildimassabirin@gmail.com">Salin</button>
+          </li>
+          <li>
+            <span class="c-label">WhatsApp</span>
+            <a href="https://wa.me/6281390032010" target="_blank" rel="noopener">+62 813 9003 2010<span class="sr"> (tab baru)</span></a>
+          </li>
+          <li>
+            <span class="c-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/syahrildimassabirin" target="_blank" rel="noopener">in/syahrildimassabirin<span class="sr"> (tab baru)</span></a>
+          </li>
+          <li>
+            <span class="c-label">Lokasi</span>
+            <span>Cirebon, Jawa Barat, Indonesia</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <p>&copy; <span id="year">2026</span> Syahril Dimas Sabirin, S.Si., Gr.</p>
+      <p><a href="#top">Kembali ke atas</a></p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="script.js" defer></script>
+</body>
 </html>
