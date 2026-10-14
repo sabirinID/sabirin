@@ -1,31 +1,35 @@
-# Website Pribadi Syahril Dimas Sabirin
+# Syahril Dimas Sabirin | Personal Website & Portfolio
 
-Situs personal branding Syahril Dimas Sabirin, S.Si., Gr. (Guru Kimia, mentor kompetisi sains, pengembang media belajar digital, pendiri Aurum Coffee).
+Repositori ini berisi kode sumber untuk situs *personal branding* dan portofolio resmi **Syahril Dimas Sabirin, S.Si., Gr.** — seorang Guru Kimia, Mentor Kompetisi Sains, Pengembang Media Belajar Digital, dan Pendiri Aurum Coffee. 
 
-## Struktur
+Situs ini dirancang menggunakan HTML, CSS, dan JavaScript murni (*vanilla*) untuk memastikan performa yang ringan dan modifikasi yang mudah.
 
-- `index.html` : konten dan struktur halaman
-- `styles.css` : desain (token warna dan tipografi di bagian `:root`)
-- `script.js` : menu mobile, penanda menu aktif, tombol salin email
-- `logo.jpg`, `profile.jpg` : aset gambar
-- `CNAME` : domain khusus untuk GitHub Pages
+---
 
-## Menjalankan
+## Struktur Direktori
 
-Buka `index.html` langsung di peramban, atau jalankan server lokal:
+Berikut adalah penjelasan fungsional dari setiap berkas utama di dalam repositori ini:
 
+| Berkas / Direktori | Deskripsi |
+| :--- | :--- |
+| `index.html` | Kerangka utama dan seluruh konten teks/semantik halaman situs. |
+| `styles.css` | Tata letak dan gaya visual. Menggunakan *design tokens* pada blok `:root` untuk manajemen warna dan tipografi. |
+| `script.js` | Logika interaktivitas (*mobile menu toggle*, penanda *active state* pada navigasi, dan fungsi salin *email*). |
+| `logo.jpg` & `profile.jpg` | Aset visual untuk identitas utama situs. |
+| `CNAME` | Konfigurasi *custom domain* untuk keperluan *deployment* melalui GitHub Pages. |
+
+---
+
+## Panduan Menjalankan Lokal
+
+Situs ini bersifat statis dan tidak memerlukan proses *build*. Anda dapat menjalankannya dengan dua cara:
+
+**Opsi 1: Eksekusi Langsung**
+Buka berkas `index.html` secara langsung menggunakan peramban web (*browser*) pilihan Anda.
+
+**Opsi 2: Menggunakan Local Web Server (Direkomendasikan)**
+Untuk pengalaman pengembangan yang lebih stabil, jalankan server lokal menggunakan Python melalui terminal/CMD:
+```bash
+python3 -m http.server 8000 
 ```
-python3 -m http.server 8000
-```
-
-## Mengubah isi
-
-- Teks: edit `index.html`.
-- Warna: ubah variabel di `:root` pada `styles.css`.
-- Tautan karya: cari kelas `.work` di `index.html`.
-
-## Lisensi
-
-MIT. Lihat [LICENSE](LICENSE).
-
 ## Referensi
